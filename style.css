@@ -1,0 +1,47 @@
+body{
+    background-color: peachpuff;
+}
+
+/* To style the Navbar */
+.navbar{
+    background-color: black;
+    border-radius: 1rem;
+    margin: 50px;
+    height: 500px;
+    max-width: 450px;
+    box-shadow: 5px 5px grey;
+}
+
+/* To style the logo */
+.nav_1{
+    position: relative;
+}
+
+            
+/* To style the navigation menu */
+.nav_1 #menu{
+    display: none;
+}
+            
+/* To style the links */
+.nav_1 a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 12px;
+    font-size: 16px;
+    display: block;
+}
+            
+/* To style the Navigation bar toggle bar */
+.nav_1 a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* To add an hover effect on navigation logo and menu */
+.nav_1 a:hover {
+    background-color: #b9b1b1;
+    color: black;
+            }
